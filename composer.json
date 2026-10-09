@@ -1,0 +1,65 @@
+{
+    "name": "abangateway/abangateway-php-package",
+    "description": "AbanGateway card-to-card payment gateway for PHP and Laravel: invoices with automatic confirmation, signed webhooks.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "abangateway",
+        "payment",
+        "gateway",
+        "card-to-card",
+        "iran",
+        "laravel",
+        "webhook"
+    ],
+    "homepage": "https://abangateway.ir",
+    "support": {
+        "docs": "https://github.com/AbanGateway/docs",
+        "source": "https://github.com/AbanGateway/abangateway-php-package"
+    },
+    "authors": [
+        {
+            "name": "AbanGateway",
+            "email": "noreply@abangateway.ir",
+            "homepage": "https://abangateway.ir"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "suggest": {
+        "laravel/framework": "Laravel 10, 11 or 12: config, facade, a ready webhook route and events, registered automatically"
+    },
+    "autoload": {
+        "psr-4": {
+            "AbanGateway\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AbanGateway\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AbanGateway\\Laravel\\AbanGatewayServiceProvider"
+            ],
+            "aliases": {
+                "AbanGateway": "AbanGateway\\Laravel\\Facades\\AbanGateway"
+            }
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.33"
+        },
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}

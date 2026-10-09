@@ -1,0 +1,31 @@
+{
+    "name": "abangateway/laravel-bridge-tests",
+    "description": "A throwaway Laravel app (Orchestra Testbench) that installs the package from /pkg. Used only by run.sh. Advisory blocking is off here on purpose: every stable Laravel 10 release now carries a published advisory (10 is past security support), and this app exists to prove the package works on the releases merchants still run.",
+    "type": "project",
+    "require": {
+        "abangateway/abangateway-php-package": "*@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/pkg",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "AbanGateway\\Tests\\Laravel\\": "tests/",
+            "AbanGateway\\Tests\\Fakes\\": "/pkg/tests/Fakes/"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "policy": {
+            "advisories": {
+                "block": false
+            }
+        }
+    }
+}

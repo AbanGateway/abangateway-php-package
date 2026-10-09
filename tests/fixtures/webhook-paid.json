@@ -1,0 +1,6 @@
+{
+  "body": "{\"event\":\"invoice.paid\",\"invoice_id\":\"inv_9fk2m4qx7t3p8wzy1a6b\",\"order_id\":\"ORD-1043#2\",\"amount_rial\":5990000,\"payable_rial\":5993240,\"fee_rial\":40000,\"status\":\"paid\",\"is_test\":false,\"paid_at\":\"2026-08-17T13:58:02+00:00\",\"metadata\":{\"customer\":\"u_882\",\"note\":\"سفارش آزمایشی\"}}",
+  "secret": "whsec_fixture_not_a_real_secret_0123456789",
+  "signature": "1bbad99a8f127712aa839536232259b64b7c0961d80c964c2c4a09a653db91f9",
+  "generated_by": "backend services.webhooks.sign"
+}
