@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Laravel 13 is supported: the bridge is tested on Laravel 13 (PHP 8.3 and 8.4) next to 10, 11 and 12. No code change.
+
 ## 1.0.0
 
 First release.

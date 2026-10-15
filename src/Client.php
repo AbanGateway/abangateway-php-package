@@ -23,7 +23,7 @@ use AbanGateway\Http\Transport;
  */
 final class Client
 {
-    public const VERSION = '1.0.0';
+    public const VERSION = '1.0.1';
     public const DEFAULT_BASE_URL = 'https://api.abangateway.ir';
 
     /** What invoiceForOrder() puts between your order id and an attempt number. */

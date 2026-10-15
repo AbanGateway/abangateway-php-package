@@ -33,7 +33,7 @@
         "phpunit/phpunit": "^9.6"
     },
     "suggest": {
-        "laravel/framework": "Laravel 10, 11 or 12: config, facade, a ready webhook route and events, registered automatically"
+        "laravel/framework": "Laravel 10 to 13: config, facade, a ready webhook route and events, registered automatically"
     },
     "autoload": {
         "psr-4": {

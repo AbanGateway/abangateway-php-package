@@ -7,7 +7,7 @@
 *AbanGateway card-to-card payments for PHP and Laravel: create invoices, send buyers to the payment page, get a signed webhook when the money lands.*
 
 - PHP 7.4 به بالا، فقط با cURL و بدون هیچ وابستگی دیگر
-- لاراول ۱۰، ۱۱ و ۱۲، خودکار: تنظیمات، فساد، مسیر آماده وبهوک و رویدادها
+- لاراول ۱۰ تا ۱۳، خودکار: تنظیمات، فساد، مسیر آماده وبهوک و رویدادها
 - مستندات کامل API: [github.com/AbanGateway/docs](https://github.com/AbanGateway/docs)
 
 ## نصب
